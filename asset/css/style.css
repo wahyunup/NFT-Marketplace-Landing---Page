@@ -121,7 +121,53 @@ body h1{
     width: 247px;
 }
 
+.button-topcreator{
+    width: 247px;
+    height: 60px;
+}
 
+.position-top-creator{
+    display: flex;
+    justify-content: end;
+}
+
+.card-avatar{
+    background-color: #3B3B3B;
+    border-radius: 20px;
+    padding: 20px;
+    width: 240px;
+}
+
+.card-avatar .number {
+    background-color: var(--primary-bg);
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #858584;
+}
+
+.card-avatar img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+    margin-top: -30px;
+}
+
+.card-avatar .total{
+    text-align: center;
+}
+
+.card-avatar h5{
+    text-align: center;
+}
+
+.container-card{
+    padding-bottom: 40px;
+}
 
 @media(max-width: 1000px){
     .button-primary{
