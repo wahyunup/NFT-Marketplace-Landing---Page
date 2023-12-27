@@ -129,6 +129,7 @@ body h1{
 .position-top-creator{
     display: flex;
     justify-content: end;
+    padding-right: 45px;
 }
 
 .card-avatar{
