@@ -172,6 +172,12 @@ body h1{
 
 .Categories-name{
     background-color: #3B3B3B;
+    width: 240px;
+    height: 76px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    border-radius: 0px 00px 20px 20px;
 }
 
 @media(max-width: 1000px){
