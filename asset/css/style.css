@@ -170,6 +170,10 @@ body h1{
     padding-bottom: 40px;
 }
 
+.Categories-name{
+    background-color: #3B3B3B;
+}
+
 @media(max-width: 1000px){
     .button-primary{
         width: 100%;
