@@ -180,6 +180,23 @@ body h1{
     border-radius: 0px 00px 20px 20px;
 }
 
+.browse-categories{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.browse-categories h3{
+    padding-bottom: 60px;
+}
+
+.browse-categories .row{
+    display: contents;
+}
+
+.button-topcreator{
+    
+}
+
 @media(max-width: 1000px){
     .button-primary{
         width: 100%;
