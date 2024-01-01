@@ -113,17 +113,20 @@ body h1{
 }
 
 .top-creator .button-topcreator{
-    padding: 15px 50px;
     border-radius: 15px;
-    border-color: #A259FF;
+    border: 2px #A259FF solid;
     background-color: var(--primary-bg);
-    color: var(--btn-primary);
+    color: var(--btn-secondary);
     width: 247px;
 }
 
 .button-topcreator{
     width: 247px;
     height: 60px;
+}
+
+.button-topcreator img{
+    padding-right: 12px;
 }
 
 .position-top-creator{
@@ -193,8 +196,31 @@ body h1{
     display: contents;
 }
 
-.button-topcreator{
-    
+.button-discovermorenfts{
+    border-radius: 20px;
+    border: 2px #A259FF solid;
+    width: 187px;
+    height: 60px;
+    background-color: var(--primary-bg);
+    color: var(--primary-text);
+}
+
+
+.position-button-discovermorenfts{
+    display: flex;
+    justify-content: end;
+    padding-right: 45px;
+}
+
+.DistantGalaxy{
+    padding: 20px 30px 25px 30px;
+    width: 330px;
+    border-radius: 0px 0px 20px 20px;
+    background-color: var(--secondary-bg);
+}
+
+.DistantGalaxyImg{
+    padding-right: 12px ;
 }
 
 @media(max-width: 1000px){
